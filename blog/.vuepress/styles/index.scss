@@ -1,0 +1,22 @@
+.web-icon {
+    width: 128px;
+    height: 128px;
+    margin-right: 1vw;
+}
+
+.friend-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 150px;
+    margin-bottom: 2vh;
+    border-radius: 6px;
+    border-color: cadetblue;
+    border-style: dotted;
+}
+
+.name-and-desc {
+    font-size: 120%;
+    font-weight: bold;
+}

@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# vuepress build output
+**/dist
+
+# vuepress v2.x temp and cache directory
+**/.temp
+**/.cache
