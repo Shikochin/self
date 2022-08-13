@@ -1,22 +1,38 @@
-.web-icon {
-    width: 128px;
-    height: 128px;
-    margin-right: 1vw;
+@media screen and (min-width: 1000px) {
+    #link-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 12px;
+    }
 }
 
-.friend-link {
+@media screen and (max-width: 1000px) {
+    #link-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 12px;
+    }
+}
+
+.webIcon {
+    width: 128px;
+    height: 128px;
+    border-radius: 100%;
+    margin-right: 0.8vw;
+}
+
+.friendLink {
     display: flex;
     justify-content: center;
     align-items: center;
     width: auto;
     height: 150px;
-    margin-bottom: 2vh;
     border-radius: 6px;
-    border-color: cadetblue;
+    border-color: #3eaf7c;
     border-style: dotted;
 }
 
-.name-and-desc {
-    font-size: 120%;
+.nameAndDesc {
+    font-size: 110%;
     font-weight: bold;
 }
