@@ -1,4 +1,4 @@
-import type { HopeThemeSidebarConfig } from "vuepress-theme-hope";
+import type { HopeThemeSidebarConfig } from 'vuepress-theme-hope';
 
 const sidebarConfigs: HopeThemeSidebarConfig = [
     {
@@ -7,10 +7,10 @@ const sidebarConfigs: HopeThemeSidebarConfig = [
       link: '/',  
     },
     {
-        text: "小说",
+        text: '小说',
         icon: 'book',
         link: '/novels/',
-        prefix: "/novels/",
+        prefix: '/novels/',
         collapsable: true,
         children: [
             'undefined', 'silent'

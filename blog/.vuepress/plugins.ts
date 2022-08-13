@@ -1,8 +1,8 @@
 import type { PluginConfig } from 'vuepress';
-import { commentPlugin } from "vuepress-plugin-comment2";
-import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
-import { searchPlugin } from "@vuepress/plugin-search";
-import { path } from '@vuepress/utils'
+import { commentPlugin } from 'vuepress-plugin-comment2';
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
+import { searchPlugin } from '@vuepress/plugin-search';
+import { path } from '@vuepress/utils';
 
 const pluginConfigs: PluginConfig = [
     commentPlugin({

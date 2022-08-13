@@ -141,8 +141,8 @@ Keritial 查詢的結果出來了，但我要先解決實驗品 A 的問題，�
 被剝離的人們**沒有**能力去改變自己目前的境況，平凡的人們不會感知，也不會理解，做個比喻：
 
 ```ts
-const role1 = "CHINQ",
-      role2 = "Galaxy";
+const role1 = 'CHINQ',
+      role2 = 'Galaxy';
 const undefinedRoles = [];
 function makeUndefined(role: string): void {
   undefinedRoles.push(role);
@@ -151,7 +151,7 @@ function makeUndefined(role: string): void {
 function script1(): unknown {
   // 角色一與該劇情有交集
 }
-// 但如果角色一 "被剝離"
+// 但如果角色一 '被剝離'
 makeUndefined(role1);
 
 function script1(): never {
@@ -381,7 +381,7 @@ project.world0.mineral = undefined;
 project.world0.land = undefined;
 project.world0.earth = undefined;
 
-project.world1 = { mainCharactor: "CQBerry", otherCharactors: {...} }
+project.world1 = { mainCharactor: 'CQBerry', otherCharactors: {...} }
 ```
 
 > 又一個人從終焉中醒來…

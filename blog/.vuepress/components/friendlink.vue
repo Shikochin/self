@@ -5,10 +5,10 @@ export default {
 </script>
 
 <template>
-  <div class="friendLink">
-    <img class="webIcon" :src="icon" />
-    <a :href="link">
-      <p class="nameAndDesc">{{ name }}<br />{{ desc }}</p>
+  <div class='friendLink'>
+    <img class='webIcon' :src='icon' />
+    <a :href='link'>
+      <p class='nameAndDesc'>{{ name }}<br />{{ desc }}</p>
     </a>
   </div>
 </template>

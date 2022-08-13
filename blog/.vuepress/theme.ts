@@ -11,7 +11,7 @@ const themeConfigs: HopeThemeOptions = {
     repoLabel: 'GitHub',
     navbar: navbarConfigs,
     sidebar: sidebarConfigs,
-    footer: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> Licensed | Copyright © 2021-present by CHINQ<br><a href="https://icp.gov.moe/?keyword=20206624">萌 ICP 备</a>',
+    footer: '<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.zh'>CC BY-SA 4.0</a> Licensed | Copyright © 2021-present by CHINQ<br><a href='https://icp.gov.moe/?keyword=20206624'>萌 ICP 备</a>',
     copyright: false,
     displayFooter: true,
     editLink: false,
