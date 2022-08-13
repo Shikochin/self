@@ -1,6 +1,6 @@
 import type { HopeThemeNavbarConfig } from "vuepress-theme-hope";
 
-const navbarConfig: HopeThemeNavbarConfig = [
+const navbarConfigs: HopeThemeNavbarConfig = [
     {
         text: "主页",
         link: "/",
@@ -32,4 +32,4 @@ const navbarConfig: HopeThemeNavbarConfig = [
     },
 ];
 
-export default navbarConfig;
+export default navbarConfigs;

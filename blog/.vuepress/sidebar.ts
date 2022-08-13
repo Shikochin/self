@@ -1,6 +1,6 @@
 import type { HopeThemeSidebarConfig } from "vuepress-theme-hope";
 
-const sidebarConfig: HopeThemeSidebarConfig = [
+const sidebarConfigs: HopeThemeSidebarConfig = [
     {
       text: '主页',
       icon: 'home',
@@ -18,4 +18,4 @@ const sidebarConfig: HopeThemeSidebarConfig = [
     },
 ]
 
-export default sidebarConfig;
+export default sidebarConfigs;
