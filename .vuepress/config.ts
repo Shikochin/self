@@ -1,8 +1,8 @@
 import { defineUserConfig } from 'vuepress';
 import { hopeTheme } from 'vuepress-theme-hope';
-import themeConfigs from './theme'
-import pluginConfigs from './plugins'
+import pluginConfigs from './plugins';
 import headConfigs from './head';
+import themeConfigs from './theme';
 
 export default defineUserConfig({
     lang: 'zh-CN',

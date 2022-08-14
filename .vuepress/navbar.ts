@@ -2,11 +2,6 @@ import type { HopeThemeNavbarConfig } from 'vuepress-theme-hope';
 
 const navbarConfigs: HopeThemeNavbarConfig = [
     {
-        text: '主页',
-        link: '/',
-        icon: 'home',
-    },
-    {
         text: '小说',
         icon: 'book',
         prefix: '/novels/',
@@ -29,6 +24,11 @@ const navbarConfigs: HopeThemeNavbarConfig = [
             text: 'RPE Guide',
             link: 'https://rpe.chinq.xyz',
         },],
+    },
+    {
+        text: '关于',
+        link: '/about/',
+        icon: 'heart',
     },
 ];
 
