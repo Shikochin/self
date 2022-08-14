@@ -7,7 +7,6 @@ const themeConfigs: HopeThemeOptions = {
     author: 'CHINQ',
     logo: '/assets/imgs/logo.webp',
     repo: 'CQBerry/buelog',
-    docsDir: 'blog',
     repoLabel: 'GitHub',
     navbar: navbarConfigs,
     sidebar: sidebarConfigs,
