@@ -1,8 +1,9 @@
 import type { PluginConfig } from 'vuepress';
 import { commentPlugin } from 'vuepress-plugin-comment2';
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
-import { searchPlugin } from '@vuepress/plugin-search';
 import { path } from '@vuepress/utils';
+import { searchPlugin } from '@vuepress/plugin-search';
+import { pwaPlugin } from '@vuepress/plugin-pwa';
 
 const pluginConfigs: PluginConfig = [
     commentPlugin({
@@ -19,6 +20,9 @@ const pluginConfigs: PluginConfig = [
     searchPlugin({
         hotKeys: ['ctrl', 'k']
     }),
+    pwaPlugin({
+        skipWaiting: true,
+    })
 ]
 
 export default pluginConfigs;

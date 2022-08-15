@@ -5,7 +5,7 @@ next: false
 
 # 友情链接
 <div id='link-grid'>
-<friendlink name='CHINQBlog' link='/' icon='/assets/imgs/logo.webp' desc='Stay young 😙' />
+<friendlink name='CHINQBlog' link='/' icon='/assets/imgs/icons/logo.webp' desc='Stay young 😙' />
 <friendlink name='KRTL' link='https://krtl.top' icon='https://r.krtl.top/image/avatar/Keritial.avif' desc='No desc provided.' />
 </div>
 

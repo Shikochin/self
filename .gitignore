@@ -4,12 +4,13 @@ logs
 yarn-debug.log*
 yarn-error.log*
 
+# Lock files
+yarn.lock
+
 # Dependency directories
 node_modules/
 
-# vuepress build output
-**/dist
-
-# vuepress v2.x temp and cache directory
+# vuepress v2.x temp and cache directory, build output
 **/.temp
 **/.cache
+**/dist

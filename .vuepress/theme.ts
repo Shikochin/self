@@ -5,7 +5,7 @@ import sidebarConfigs from './sidebar';
 const themeConfigs: HopeThemeOptions = {
     hostname: 'https://www.chinq.xyz',
     author: 'CHINQ',
-    logo: '/assets/imgs/logo.webp',
+    logo: '/assets/imgs/icons/logo.webp',
     repo: 'CQBerry/buelog',
     repoLabel: 'GitHub',
     navbar: navbarConfigs,
