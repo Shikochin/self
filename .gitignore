@@ -4,9 +4,6 @@ logs
 yarn-debug.log*
 yarn-error.log*
 
-# Lock files
-yarn.lock
-
 # Dependency directories
 node_modules/
 
