@@ -26,12 +26,12 @@ features:
 
 ## 剝離
 
-[![undefined](/assets/imgs/novels/undefined.webp)](undefined.md)
+[![undefined](/assets/imgs/novels/undefined.webp)](/novels/undefined.md)
 
 > 一本充斥悲剧的书，一个违背常识的世界
 
 ## 寂 <Badge type='tip' text='WIP' vertical='top' />
 
-[![silent](/assets/imgs/novels/silent.webp)](silent.md)
+[![silent](/assets/imgs/novels/silent.webp)](/novels/silent.md)
 
 > 高塔永不倒塌
