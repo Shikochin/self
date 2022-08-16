@@ -1,4 +1,5 @@
 ---
+icon: like
 comment: false
 ---
 

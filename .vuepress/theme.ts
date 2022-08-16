@@ -22,10 +22,9 @@ const themeConfigs: HopeThemeOptions = {
         mdEnhance: {
             linkCheck: 'dev',
             lazyLoad: true,
-            tex: true,
         }
     },
-    iconAssets: 'fontawesome',
+    iconAssets: 'iconfont',
 }
 
 export default themeConfigs;

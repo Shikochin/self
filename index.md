@@ -1,5 +1,6 @@
 ---
 title: 主页
+icon: home
 home: true
 heroText: CHINQ
 heroImage: /assets/imgs/icons/logo.webp
@@ -12,11 +13,11 @@ features:
     details: 一个前端开发者，或者说更像一个小说家
 
   - title: 我在哪？
-    icon: map
+    icon: sitemap
     details: 我永远活在自己的小说中，寄身于高不可攀的白塔
 
   - title: 我将会...
-    icon: long-arrow-right
+    icon: arrow
     details: 热爱写作，且会一直走下去
 ---
 

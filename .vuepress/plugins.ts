@@ -4,13 +4,14 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
 import { path } from '@vuepress/utils';
 import { searchPlugin } from '@vuepress/plugin-search';
 import { pwaPlugin } from '@vuepress/plugin-pwa';
+import { pwaPopupPlugin } from '@vuepress/plugin-pwa-popup'
 
 const pluginConfigs: PluginConfig = [
     commentPlugin({
         comment: true,
         provider: 'Waline',
         serverURL: 'https://waline.chinq.xyz',
-        requiredMeta: ['nick'],
+        requiredMeta: ['nick', 'mail'],
         emoji: ['https://unpkg.com/@waline/emojis@1.0.1/alus'],
         dark: 'html[data-theme="dark"]',
     }),
@@ -20,9 +21,8 @@ const pluginConfigs: PluginConfig = [
     searchPlugin({
         hotKeys: ['ctrl', 'k']
     }),
-    pwaPlugin({
-        skipWaiting: true,
-    })
+    pwaPlugin({}),
+    pwaPopupPlugin({})
 ]
 
 export default pluginConfigs;

@@ -3,7 +3,7 @@ import type { HopeThemeNavbarConfig } from 'vuepress-theme-hope';
 const navbarConfigs: HopeThemeNavbarConfig = [
     {
         text: '小说',
-        icon: 'book',
+        icon: 'read',
         prefix: '/novels/',
         children: ['undefined', 'silent'],
     },
@@ -19,7 +19,7 @@ const navbarConfigs: HopeThemeNavbarConfig = [
     },
     {
         text: '项目',
-        icon: 'cubes',
+        icon: 'folder',
         children: [{
             text: 'RPE Guide',
             link: 'https://rpe.chinq.xyz',
@@ -28,7 +28,7 @@ const navbarConfigs: HopeThemeNavbarConfig = [
     {
         text: '关于',
         link: '/about/',
-        icon: 'heart',
+        icon: 'like',
     },
 ];
 

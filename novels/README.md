@@ -1,4 +1,5 @@
 ---
+icon: read
 comment: false
 ---
 # 小说

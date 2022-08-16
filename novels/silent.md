@@ -1,4 +1,5 @@
 ---
+icon: edit
 category:
     - 小说
 ---

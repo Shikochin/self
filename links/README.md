@@ -1,8 +1,6 @@
 ---
-prev: false
-next: false
+icon: link
 ---
-
 # 友情链接
 <div id='link-grid'>
 <friendlink name='CHINQBlog' link='/' icon='/assets/imgs/icons/logo.webp' desc='Stay young 😙' />

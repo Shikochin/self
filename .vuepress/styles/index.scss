@@ -26,18 +26,18 @@
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 150px;
-    border-radius: 6px;
-    border-color: #3eaf7c;
+    height: var(--friendlink-height);
+    border-radius: var(--friendlink-border-radius);
+    border-color: var(--friendlink-border-color);
     border-style: dotted;
 }
 
 .nameAndDesc {
-    font-size: 110%;
+    font-size: var(--friendlink-fontsize);
     font-weight: bold;
 }
 
 .hero {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: var(--hero-margin);
+    margin-bottom: var(--hero-margin);
 }
