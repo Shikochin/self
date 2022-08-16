@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div class='friendLink'>
-    <img class='webIcon' :src='icon' />
+    <img class='webIcon' alt='friendLink' :src='icon' />
     <a :href='link'>
       <p class='nameAndDesc'>{{ name }}<br />{{ desc }}</p>
     </a>
