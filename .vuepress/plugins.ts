@@ -14,6 +14,17 @@ const pluginConfigs: PluginConfig = [
         requiredMeta: ['nick', 'mail'],
         emoji: ['https://unpkg.com/@waline/emojis@1.0.1/alus'],
         dark: 'html[data-theme="dark"]',
+        locale: {
+            level0: 'Null',
+            level1: 'Undefined',
+            level2: 'Boolean',
+            level3: 'Number',
+            level4: 'BigInt',
+            level5: 'String',
+            level6: 'Symbol',
+            level7: 'Object',
+            placeholder: '来发评论呀~'
+        }
     }),
     registerComponentsPlugin({
         componentsDir: path.resolve(__dirname, './components'),

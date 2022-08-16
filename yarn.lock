@@ -1447,7 +1447,7 @@
     "@vuepress/utils" "2.0.0-beta.49"
     execa "^5.1.1"
 
-"@vuepress/plugin-medium-zoom@2.0.0-beta.49", "@vuepress/plugin-medium-zoom@^2.0.0-beta.49":
+"@vuepress/plugin-medium-zoom@2.0.0-beta.49":
   version "2.0.0-beta.49"
   resolved "https://registry.npmjs.org/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-2.0.0-beta.49.tgz#d4615e894ad5a8f1be367cd364a25a6885abb205"
   integrity sha512-Z80E/BhHnTQeC208Dw9D1CpyxONGJ3HVNd3dU3qJfdjX9o8GzkRqdo17aq4aHOeEPn0DQ04I/7sHFVgv41KGgw==
