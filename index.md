@@ -21,18 +21,22 @@ features:
     details: 热爱写作，且会一直走下去
 ---
 
-# 小说
+## 小说
 
 两个小说实际上是一个世界观，**目前还在画大饼** 🛠️
 
-## 剝離
+### 剝離
 
 [![undefined](/assets/imgs/novels/undefined.webp)](/novels/undefined.md)
 
 > 一本充斥悲剧的书，一个违背常识的世界
 
-## 寂 <Badge type='tip' text='WIP' vertical='top' />
+### 寂 <Badge type='tip' text='WIP' vertical='top' />
 
 [![silent](/assets/imgs/novels/silent.webp)](/novels/silent.md)
 
 > 高塔永不倒塌
+
+## 一言
+
+<hitokoto />

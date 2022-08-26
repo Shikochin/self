@@ -20,7 +20,7 @@ const themeConfigs: HopeThemeOptions = {
     contributors: true,
     plugins: {
         mdEnhance: {
-            linkCheck: 'dev',
+            linkCheck: 'build',
             lazyLoad: true,
         }
     },

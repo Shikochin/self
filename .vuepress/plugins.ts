@@ -15,8 +15,8 @@ const pluginConfigs: PluginConfig = [
         emoji: ['https://unpkg.com/@waline/emojis@1.0.1/alus'],
         dark: 'html[data-theme="dark"]',
         locale: {
-            level0: 'Null',
-            level1: 'Undefined',
+            level0: 'null',
+            level1: 'undefined',
             level2: 'Boolean',
             level3: 'Number',
             level4: 'BigInt',
@@ -27,7 +27,10 @@ const pluginConfigs: PluginConfig = [
         }
     }),
     registerComponentsPlugin({
-        componentsDir: path.resolve(__dirname, './components'),
+        components: {
+            friendlink: path.resolve(__dirname, './components/friendlink.vue'),
+            hitokoto: path.resolve(__dirname, './components/hitokoto.vue')
+        }
     }),
     searchPlugin({
         hotKeys: ['ctrl', 'k']

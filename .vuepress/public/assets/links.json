@@ -1,0 +1,16 @@
+{
+    "links": [
+        {
+            "name": "CHINQBlog",
+            "link": "/",
+            "icon": "/assets/imgs/icons/logo.webp",
+            "desc": "Stay young 😙"
+        },
+        {
+            "name": "KRTL",
+            "link": "https://krtl.top",
+            "icon": "https://r.krtl.top/image/avatar/Keritial.avif",
+            "desc": "No descriptions provided."
+        }
+    ]
+}
