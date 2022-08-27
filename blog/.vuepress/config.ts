@@ -8,7 +8,7 @@ export default defineUserConfig({
     lang: 'zh-CN',
     title: 'CHINQBlog',
     description: 'Stay young 😙',
-    pagePatterns: ['**/*.md', '!.vuepress', '!node_modules', '!README.md'],
+    pagePatterns: ['**/*.md', '!.vuepress', '!node_modules'],
     plugins: pluginConfigs,
     head: headConfigs,
     theme: hopeTheme(themeConfigs),
