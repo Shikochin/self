@@ -11,7 +11,6 @@ export default {
         .then((res) => res.json())
         .then((data) => {
           this.hitokoto = data.hitokoto;
-          this.link = `https://hitokoto.cn/?uuid=${data.uuid}`;
         })
         .catch((e) => console.log(e));
     },
