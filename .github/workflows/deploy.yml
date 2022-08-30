@@ -25,6 +25,11 @@ jobs:
       - name: Build VuePress site
         run: yarn build
 
+      - name: Store data to artifact
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: github-pages
+
   deploy:
     needs: build
 
