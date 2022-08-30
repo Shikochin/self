@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,12 +24,7 @@ jobs:
 
       - name: Build VuePress site
         run: yarn build
-
-  deploy:
-    needs: build
-
-    runs-on: ubuntu-latest
-    steps:
+      
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
