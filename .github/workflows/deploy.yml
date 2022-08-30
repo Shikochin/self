@@ -25,11 +25,14 @@ jobs:
       - name: Build VuePress site
         run: yarn build
 
-      - name: Store data to artifact
+      - name: Tar files
+          run: tar -cvf github-pages.tar blog/.vuepress/dist
+
+      - name: Upload artifact
         uses: actions/upload-artifact@v3.1.0
         with:
           name: github-pages
-          path: blog/.vuepress/dist/
+          path: github-pages.tar
 
   deploy:
     needs: build
