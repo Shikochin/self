@@ -1,36 +1,27 @@
-<script>
-export default {
-  data() {
-    return {
-      links: [],
-    };
-  },
-  mounted() {
-    fetch("/assets/links.json")
-      .then((res) => res.json())
-      .then((data) => {
-        this.links = data.links;
-      });
-  },
-};
+<script setup lang="ts">
+import { ref, onMounted } from 'vue'
+
+const links = ref([])
+
+onMounted(async () => {
+  links.value = await fetch('/assets/links.json')
+    .then(res => res.json())
+    .then(data => data.links)
+})
 </script>
 
 <template>
   <div id="linkGrid">
-    <div
-      class="friendLink"
-      v-for="{ name, link, icon, desc } in links"
-      :key="name"
-    >
+    <div class="friendLink" v-for="{ name, link, icon, desc } of links" :key="name">
       <img class="webIcon" :alt="`${name}-${desc}`" :src="icon" />
       <a :href="link">
-        <p class="nameAndDesc">{{ name }}<br />{{ desc }}</p>
+        <p class="nameAndDesc">{{  name  }}<br />{{  desc  }}</p>
       </a>
     </div>
   </div>
 </template>
 
-<style>
+<style scoped>
 @media screen and (min-width: 1000px) {
   #linkGrid {
     display: grid;
@@ -46,6 +37,7 @@ export default {
     grid-gap: 12px;
   }
 }
+
 .webIcon {
   width: 128px;
   height: 128px;
