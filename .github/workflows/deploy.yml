@@ -26,7 +26,7 @@ jobs:
         run: yarn build
 
       - name: Tar files
-          run: tar -cvf github-pages.tar blog/.vuepress/dist
+        run: tar -cvf github-pages.tar blog/.vuepress/dist
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3.1.0
