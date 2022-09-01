@@ -1,3 +1,3 @@
 # My Blog
 
-My blog, powered by VuePress, using Github Pages.
+My personal blog, powered by VuePress, using GitHub Pages.

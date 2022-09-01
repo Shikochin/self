@@ -12,7 +12,7 @@ onMounted(async () => {
 
 <template>
   <div id="linkGrid">
-    <div class="friendLink" v-for="{ name, link, icon, desc } of links" :key="name">
+    <div class="friendLink" v-for="({ name, link, icon, desc }, index) of links" :key="index">
       <img class="webIcon" :alt="`${name}-${desc}`" :src="icon" />
       <a :href="link">
         <p class="nameAndDesc">{{  name  }}<br />{{  desc  }}</p>
