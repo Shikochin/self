@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, onBeforeMount } from 'vue'
 
 const links = ref([])
 
-onMounted(async () => {
+onBeforeMount(async () => {
   links.value = await fetch('/assets/links.json')
     .then(res => res.json())
     .then(data => data.links)
@@ -11,11 +11,12 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div id="linkGrid">
-    <div class="friendLink" v-for="({ name, link, icon, desc }, index) of links" :key="index">
-      <img class="webIcon" :alt="`${name}-${desc}`" :src="icon" />
+  <div id="linksGrid">
+    <div class="friendLink" v-for="{ id, name, link, icon, desc } of links" :key="id">
+      <img class="icon" :alt="`${name}-${desc}`" :src="icon" />
       <a :href="link">
-        <p class="nameAndDesc">{{  name  }}<br />{{  desc  }}</p>
+        <p class="name">{{  name  }}</p>
+        <p>{{  desc  }}</p>
       </a>
     </div>
   </div>
@@ -23,7 +24,7 @@ onMounted(async () => {
 
 <style scoped>
 @media screen and (min-width: 1000px) {
-  #linkGrid {
+  #linksGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12px;
@@ -31,16 +32,16 @@ onMounted(async () => {
 }
 
 @media screen and (max-width: 1000px) {
-  #linkGrid {
+  #linksGrid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 12px;
   }
 }
 
-.webIcon {
-  width: 128px;
-  height: 128px;
+.icon {
+  width: 18vmin;
+  height: 18vmin;
   border-radius: 100%;
   margin-right: 0.8vw;
 }
@@ -49,14 +50,13 @@ onMounted(async () => {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto;
-  height: var(--friendlink-height);
+  height: 22vmin;
   border-radius: var(--friendlink-border-radius);
   border-color: var(--friendlink-border-color);
-  border-style: dotted;
+  border-style: solid;
 }
 
-.nameAndDesc {
+.name {
   font-size: var(--friendlink-fontsize);
   font-weight: bold;
 }
