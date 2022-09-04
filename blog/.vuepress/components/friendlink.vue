@@ -40,8 +40,8 @@ onBeforeMount(async () => {
 }
 
 .icon {
-  width: 16vmin;
-  height: 16vmin;
+  width: 96px;
+  height: 96px  ;
   border-radius: 100%;
   margin-right: 0.8vw;
 }
@@ -50,10 +50,12 @@ onBeforeMount(async () => {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 18vmin;
+  height: var(--friendlink-height);
   border-radius: var(--friendlink-border-radius);
   border-color: var(--friendlink-border-color);
-  border-style: solid;
+  border-style: double;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .name {
