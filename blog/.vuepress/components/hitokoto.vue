@@ -1,5 +1,5 @@
-<script setup lang="ts">
-import { ref, onBeforeMount, computed } from "vue";
+<script lang="ts" setup>
+import {computed, onBeforeMount, ref} from "vue";
 
 const hitokoto = ref("");
 const count = ref(0);
@@ -7,9 +7,9 @@ const tip = computed(() => `这已经是你第 ${count.value} 次刷新一言了
 
 async function fetchHitokoto() {
   hitokoto.value = await fetch("https://v1.hitokoto.cn/")
-    .then((res) => res.json())
-    .then((data) => data.hitokoto)
-    .catch((e) => "你点的太快了！") as string;
+      .then((res) => res.json())
+      .then((data) => data.hitokoto)
+      .catch((e) => `你点的太快了：${e}`) as string;
   count.value++;
 }
 
@@ -20,11 +20,11 @@ onBeforeMount(() => {
 
 <template>
   <blockquote>
-    <Transition name="hitokoto" mode="out-in">
-      <p @click="fetchHitokoto" :title="tip" v-if="count % 2 !== 0">
+    <Transition mode="out-in" name="hitokoto">
+      <p v-if="count % 2 !== 0" :title="tip" @click="fetchHitokoto">
         {{ hitokoto }}
       </p>
-      <p @click="fetchHitokoto" :title="tip" v-else>{{ hitokoto }}</p>
+      <p v-else :title="tip" @click="fetchHitokoto">{{ hitokoto }}</p>
     </Transition>
   </blockquote>
 </template>
@@ -43,6 +43,5 @@ onBeforeMount(() => {
 .hitokoto-leave-to {
   opacity: 0;
   transform: translateY(-30px);
-  
 }
 </style>
