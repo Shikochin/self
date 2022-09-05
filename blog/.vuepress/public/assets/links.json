@@ -1,18 +1,32 @@
 {
-    "links": [
-        {
-            "id": 0,
-            "name": "CHINQBlog",
-            "link": "/",
-            "icon": "/assets/imgs/icons/logo.webp",
-            "desc": "Stay young 😙"
-        },
-        {
-            "id": 1,
-            "name": "KRTL",
-            "link": "https://krtl.top",
-            "icon": "https://r.krtl.top/image/avatar/Keritial.avif",
-            "desc": "No description provided."
-        }
-    ]
+  "links": [
+    {
+      "id": 0,
+      "name": "CHINQBlog",
+      "link": "/",
+      "icon": "/assets/imgs/icons/logo.webp",
+      "desc": "Stay young 😙"
+    },
+    {
+      "id": 1,
+      "name": "KRTL",
+      "link": "https://krtl.top",
+      "icon": "https://r.krtl.top/image/avatar/Keritial.avif",
+      "desc": "No description provided."
+    },
+    {
+      "id": 1,
+      "name": "KRTL",
+      "link": "https://krtl.top",
+      "icon": "https://r.krtl.top/image/avatar/Keritial.avif",
+      "desc": "No description provided."
+    },
+    {
+      "id": 0,
+      "name": "CHINQBlog",
+      "link": "/",
+      "icon": "/assets/imgs/icons/logo.webp",
+      "desc": "Stay young 😙"
+    }
+  ]
 }

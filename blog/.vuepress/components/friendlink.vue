@@ -25,8 +25,8 @@ onBeforeMount(async () => {
 <style lang="scss" scoped>
 #linksGrid {
   display: grid;
-  grid-gap: 12px;
-  grid-template-columns: repeat(1, 1fr);
+  gap: 1vh 0.7vw;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
 
   .friendLink {
     display: flex;
@@ -51,12 +51,6 @@ onBeforeMount(async () => {
       font-size: var(--friendlink-fontsize);
       font-weight: bold;
     }
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  #linksGrid {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 </style>
