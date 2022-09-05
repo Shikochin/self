@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { ref, onBeforeMount } from 'vue'
+import { ref, onBeforeMount } from "vue";
 
-const links = ref([])
+const links = ref([]);
 
 onBeforeMount(async () => {
-  links.value = await fetch('/assets/links.json')
-    .then(res => res.json())
-    .then(data => data.links)
-})
+  links.value = await fetch("/assets/links.json")
+    .then((res) => res.json())
+    .then((data) => data.links);
+});
 </script>
 
 <template>
@@ -15,8 +15,8 @@ onBeforeMount(async () => {
     <div class="friendLink" v-for="{ id, name, link, icon, desc } of links" :key="id">
       <img class="icon" :alt="`${name}-${desc}`" :src="icon" />
       <a :href="link">
-        <p class="name">{{  name  }}</p>
-        <p>{{  desc  }}</p>
+        <p class="name">{{ name }}</p>
+        <p>{{ desc }}</p>
       </a>
     </div>
   </div>
@@ -41,7 +41,7 @@ onBeforeMount(async () => {
 
 .icon {
   width: 96px;
-  height: 96px  ;
+  height: 96px;
   border-radius: 100%;
   margin-right: 0.8vw;
 }
