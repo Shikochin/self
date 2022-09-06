@@ -21,36 +21,36 @@ onBeforeMount(async () => {
   </transition-group>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 #linksGrid {
   display: grid;
   gap: 1vh 0.7vw;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+}
 
-  .friendLink {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 150px;
-    height: var(--friendlink-height);
-    border-radius: var(--friendlink-border-radius);
-    border-color: var(--friendlink-border-color);
-    border-style: double;
-    padding-left: 30px;
-    padding-right: 30px;
+.friendLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  height: var(--friendlink-height);
+  border-radius: var(--friendlink-border-radius);
+  border-color: var(--friendlink-border-color);
+  border-style: double;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
-    .icon {
-      width: 96px;
-      height: 96px;
-      border-radius: 100%;
-      margin-right: 0.8vw;
-    }
+.icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 100%;
+  margin-right: 0.8vw;
+}
 
-    .name {
-      font-size: var(--friendlink-fontsize);
-      font-weight: bold;
-    }
-  }
+.name {
+  font-size: var(--friendlink-fontsize);
+  font-weight: bold;
 }
 
 .link-enter-active {
