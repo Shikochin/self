@@ -1,4 +1,4 @@
-import type {HopeThemeNavbarConfig} from "vuepress-theme-hope";
+import type { HopeThemeNavbarConfig } from "vuepress-theme-hope";
 
 const navbarConfigs: HopeThemeNavbarConfig = [
     {

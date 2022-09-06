@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import {onBeforeMount, ref} from "vue";
+import { onBeforeMount, ref } from "vue";
 
 const links = ref([]);
 
@@ -11,7 +11,7 @@ onBeforeMount(async () => {
 </script>
 
 <template>
-  <div id="linksGrid">
+  <transition-group id="linksGrid" name="link" tag="div">
     <div v-for="{ id, name, link, icon, desc } of links" :key="id" class="friendLink">
       <img :alt="`${name}-${desc}`" :src="icon" class="icon"/>
       <a :href="link">
@@ -19,7 +19,7 @@ onBeforeMount(async () => {
         <p>{{ desc }}</p>
       </a>
     </div>
-  </div>
+  </transition-group>
 </template>
 
 <style lang="scss" scoped>
@@ -52,5 +52,14 @@ onBeforeMount(async () => {
       font-weight: bold;
     }
   }
+}
+
+.link-enter-active {
+  transition: all 0.5s ease;
+}
+
+.link-enter-from {
+  opacity: 0;
+  transform: translateX(-50px);
 }
 </style>

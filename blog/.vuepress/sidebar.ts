@@ -1,4 +1,4 @@
-import type {HopeThemeSidebarConfig} from "vuepress-theme-hope";
+import type { HopeThemeSidebarConfig } from "vuepress-theme-hope";
 
 const sidebarConfigs: HopeThemeSidebarConfig = [
     {

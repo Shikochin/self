@@ -1,4 +1,4 @@
-import type {HopeThemeOptions} from "vuepress-theme-hope";
+import type { HopeThemeOptions } from "vuepress-theme-hope";
 import navbarConfigs from "./navbar";
 import sidebarConfigs from "./sidebar";
 

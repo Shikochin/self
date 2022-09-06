@@ -1,9 +1,8 @@
 <script lang="ts" setup>
-import {computed, onBeforeMount, ref} from "vue";
+import { ref } from "vue";
 
 const hitokoto = ref("");
 const count = ref(0);
-const tip = computed(() => `这已经是你第 ${count.value} 次刷新一言了！`);
 
 async function fetchHitokoto() {
   hitokoto.value = await fetch("https://v1.hitokoto.cn/")
@@ -13,18 +12,16 @@ async function fetchHitokoto() {
   count.value++;
 }
 
-onBeforeMount(() => {
-  fetchHitokoto();
-});
+fetchHitokoto();
 </script>
 
 <template>
   <blockquote>
     <Transition mode="out-in" name="hitokoto">
-      <p v-if="count % 2 !== 0" :title="tip" @click="fetchHitokoto">
+      <p v-if="count % 2 !== 0" :title="`这已经是你第 ${count} 次刷新一言了！`" @click="fetchHitokoto">
         {{ hitokoto }}
       </p>
-      <p v-else :title="tip" @click="fetchHitokoto">{{ hitokoto }}</p>
+      <p v-else :title="`这已经是你第 ${count} 次刷新一言了！`" @click="fetchHitokoto">{{ hitokoto }}</p>
     </Transition>
   </blockquote>
 </template>
@@ -32,7 +29,7 @@ onBeforeMount(() => {
 <style scoped>
 .hitokoto-enter-active,
 .hitokoto-leave-active {
-  transition: all 0.5s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .hitokoto-enter-from {

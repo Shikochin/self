@@ -1,10 +1,10 @@
-import type {PluginConfig} from "vuepress";
-import {commentPlugin} from "vuepress-plugin-comment2";
-import {registerComponentsPlugin} from "@vuepress/plugin-register-components";
-import {path} from "@vuepress/utils";
-import {searchPlugin} from "@vuepress/plugin-search";
-import {pwaPlugin} from "@vuepress/plugin-pwa";
-import {pwaPopupPlugin} from "@vuepress/plugin-pwa-popup";
+import type { PluginConfig } from "vuepress";
+import { commentPlugin } from "vuepress-plugin-comment2";
+import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
+import { path } from "@vuepress/utils";
+import { searchPlugin } from "@vuepress/plugin-search";
+import { pwaPlugin } from "@vuepress/plugin-pwa";
+import { pwaPopupPlugin } from "@vuepress/plugin-pwa-popup";
 
 const pluginConfigs: PluginConfig = [
     commentPlugin({
