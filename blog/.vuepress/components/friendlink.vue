@@ -2,7 +2,6 @@
 import { onBeforeMount, ref } from "vue";
 
 const links = ref([]);
-
 onBeforeMount(async () => {
   links.value = await fetch("/assets/links.json")
       .then((res) => res.json())
