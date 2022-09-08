@@ -25,6 +25,10 @@ const navbarConfigs: HopeThemeNavbarConfig = [
                 text: "RPE Guide",
                 link: "https://rpe.chinq.xyz",
             },
+            {
+                text: "Todos!",
+                link: "https://todos.chinq.xyz",
+            },
         ],
     },
     {
