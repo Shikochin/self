@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { onBeforeMount, ref } from "vue";
 import friend from "../public/assets/friend.json";
 </script>
 
