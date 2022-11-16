@@ -1,25 +1,25 @@
 {
-  "name": "buelog",
-  "version": "0.0.1",
+  "name": "blog",
+  "version": "1.0.0",
   "description": "My personal website, powered by VuePress",
-  "repository": "git@github.com:CQBerry/buelog.git",
-  "author": "CQBerry <chinq6624@gmail.com>",
   "license": "CC-BY-SA-4.0",
-  "main": "index.js",
-  "devDependencies": {
-    "@vuepress/plugin-search": "^2.0.0-beta.49",
-    "vuepress": "^2.0.0-beta.49"
-  },
-  "dependencies": {
-    "@vuepress/plugin-pwa": "^2.0.0-beta.49",
-    "@vuepress/plugin-pwa-popup": "^2.0.0-beta.49",
-    "@vuepress/plugin-register-components": "^2.0.0-beta.49",
-    "vuepress-theme-hope": "^2.0.0-beta.90"
-  },
+  "author": "CQBerry <cqbery@gmail.com>",
   "scripts": {
-    "dev": "vuepress dev blog",
-    "build": "vuepress build blog",
-    "clean-dev": "vuepress dev blog --clean-cache"
+    "build": "vuepress build src",
+    "dev": "vuepress dev src"
   },
-  "packageManager": "yarn@3.2.2"
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.3.0",
+    "@vuepress/client": "2.0.0-beta.53",
+    "@vuepress/plugin-pwa": "2.0.0-beta.53",
+    "@vuepress/plugin-pwa-popup": "2.0.0-beta.53",
+    "@vuepress/plugin-register-components": "2.0.0-beta.53",
+    "@vuepress/plugin-search": "2.0.0-beta.53",
+    "@vuepress/utils": "2.0.0-alpha.1",
+    "lru-cache": "^7.14.1",
+    "vue": "^3.2.44",
+    "vuepress": "2.0.0-beta.53",
+    "vuepress-plugin-comment2": "2.0.0-beta.122",
+    "vuepress-theme-hope": "2.0.0-beta.122"
+  }
 }

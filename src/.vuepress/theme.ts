@@ -6,8 +6,8 @@ const themeConfigs: HopeThemeOptions = {
     hostname: "https://www.chinq.xyz",
     author: "CHINQ",
     logo: "/assets/imgs/icons/logo.webp",
-    repo: "CQBerry/buelog",
-    docsDir: "blog",
+    repo: "CQBerry/blog",
+    docsDir: "src",
     navbar: navbarConfigs,
     sidebar: sidebarConfigs,
     footer:
@@ -21,7 +21,7 @@ const themeConfigs: HopeThemeOptions = {
     plugins: {
         mdEnhance: {
             linkCheck: "build",
-            lazyLoad: true,
+            imageLazyload: true
         },
     },
     iconAssets: "iconfont",
