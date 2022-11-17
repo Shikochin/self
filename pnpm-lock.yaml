@@ -2,8 +2,6 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vuepress/client': 2.0.0-beta.53
-  '@vuepress/plugin-pwa': 2.0.0-beta.53
-  '@vuepress/plugin-pwa-popup': 2.0.0-beta.53
   '@vuepress/plugin-register-components': 2.0.0-beta.53
   '@vuepress/plugin-search': 2.0.0-beta.53
   '@vuepress/utils': 2.0.0-alpha.1
@@ -14,8 +12,6 @@ specifiers:
 
 devDependencies:
   '@vuepress/client': 2.0.0-beta.53
-  '@vuepress/plugin-pwa': 2.0.0-beta.53
-  '@vuepress/plugin-pwa-popup': 2.0.0-beta.53
   '@vuepress/plugin-register-components': 2.0.0-beta.53
   '@vuepress/plugin-search': 2.0.0-beta.53
   '@vuepress/utils': 2.0.0-alpha.1
@@ -1770,35 +1766,6 @@ packages:
       '@vuepress/core': 2.0.0-beta.53
       prismjs: 1.29.0
     transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@vuepress/plugin-pwa-popup/2.0.0-beta.53:
-    resolution: {integrity: sha512-1/G5nHR80+CYRaxgnCI7BilLbRZitrYogzPruxmYxl9so1O1/6J5gLpb3PXXQ9kujjbhssTlt8luDbV0eS4h3A==}
-    dependencies:
-      '@vuepress/client': 2.0.0-beta.53
-      '@vuepress/core': 2.0.0-beta.53
-      '@vuepress/plugin-pwa': 2.0.0-beta.53
-      '@vuepress/shared': 2.0.0-beta.53
-      '@vuepress/utils': 2.0.0-beta.53
-      vue: 3.2.45
-    transitivePeerDependencies:
-      - '@types/babel__core'
-      - supports-color
-    dev: true
-
-  /@vuepress/plugin-pwa/2.0.0-beta.53:
-    resolution: {integrity: sha512-40egkM0NGRgRGcwhTkpTM+3iPY7T8Az0MXpdlbsTABYPcgT+IcQ4cJykHnG7h4kfASGpGqM/RxkCClhcKV1sgA==}
-    dependencies:
-      '@vuepress/client': 2.0.0-beta.53
-      '@vuepress/core': 2.0.0-beta.53
-      '@vuepress/utils': 2.0.0-beta.53
-      mitt: 3.0.0
-      register-service-worker: 1.7.2
-      vue: 3.2.45
-      workbox-build: 6.5.4
-    transitivePeerDependencies:
-      - '@types/babel__core'
       - supports-color
     dev: true
 
