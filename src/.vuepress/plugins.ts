@@ -5,23 +5,23 @@ import { path } from "@vuepress/utils";
 import { searchPlugin } from "@vuepress/plugin-search";
 
 const pluginConfigs: PluginConfig = [
-    commentPlugin({
-        comment: true,
-        provider: "Giscus",
-        repo: "CQBerry/blog",
-        repoId: "R_kgDOHzsJjA",
-        category: "Announcements",
-        categoryId: "DIC_kwDOHzsJjM4CSnOe"
-    }),
-    registerComponentsPlugin({
-        components: {
-            friendlink: path.resolve(__dirname, "./components/friendlink.vue"),
-            hitokoto: path.resolve(__dirname, "./components/hitokoto.vue"),
-        },
-    }),
-    searchPlugin({
-        hotKeys: ["ctrl", "k"],
-    })
+  commentPlugin({
+    comment: true,
+    provider: "Giscus",
+    repo: "CQBerry/blog",
+    repoId: "R_kgDOHzsJjA",
+    category: "Comments",
+    categoryId: "DIC_kwDOHzsJjM4CSnTe",
+  }),
+  registerComponentsPlugin({
+    components: {
+      friendlink: path.resolve(__dirname, "./components/friendlink.vue"),
+      hitokoto: path.resolve(__dirname, "./components/hitokoto.vue"),
+    },
+  }),
+  searchPlugin({
+    hotKeys: ["ctrl", "k"],
+  }),
 ];
 
 export default pluginConfigs;
