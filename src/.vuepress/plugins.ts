@@ -9,22 +9,11 @@ import { pwaPopupPlugin } from "@vuepress/plugin-pwa-popup";
 const pluginConfigs: PluginConfig = [
     commentPlugin({
         comment: true,
-        provider: "Waline",
-        serverURL: "https://waline.chinq.xyz",
-        requiredMeta: ["nick", "mail"],
-        emoji: ["https://unpkg.com/@waline/emojis@1.0.1/alus"],
-        dark: 'html[data-theme="dark"]',
-        locale: {
-            level0: "null",
-            level1: "undefined",
-            level2: "Boolean",
-            level3: "Number",
-            level4: "BigInt",
-            level5: "String",
-            level6: "Symbol",
-            level7: "Object",
-            placeholder: "来发评论呀~",
-        },
+        provider: "Giscus",
+        repo: "CQBerry/blog",
+        repoId: "R_kgDOHzsJjA",
+        category: "Announcements",
+        categoryId: "DIC_kwDOHzsJjM4CSnOe"
     }),
     registerComponentsPlugin({
         components: {
