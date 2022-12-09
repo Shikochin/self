@@ -6,8 +6,8 @@ comment: false
 
 ## 剝離
 
-[![undefined](/assets/imgs/novels/undefined.webp)](undefined.md)
+[![undefined_banner](/assets/imgs/novels/undefined_banner.webp)](undefined.md)
 
 ## 寂
 
-[![silent](/assets/imgs/novels/silent.webp)](silent.md)
+[![silent_banner](/assets/imgs/novels/silent_banner.webp)](silent.md)

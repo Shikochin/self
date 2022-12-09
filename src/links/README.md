@@ -21,6 +21,6 @@ icon: link
 
 - 网站名称：CHINQBlog
 - 网站地址：<https://www.chinq.xyz>
-- 网站图标：<https://www.chinq.xyz/assets/imgs/logo.webp>
+- 网站图标：<https://www.chinq.xyz/assets/imgs/icons/logo.webp>
 - 网站简介：Stay young 😙
 :::

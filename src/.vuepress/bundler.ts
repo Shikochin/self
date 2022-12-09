@@ -8,12 +8,12 @@ export default viteBundler({
     build: {
       rollupOptions: {
         output: {
-          sanitizeFileName(fileName) {
-            const match = DRIVE_LETTER_REGEX.exec(fileName);
+          sanitizeFileName(name) {
+            const match = DRIVE_LETTER_REGEX.exec(name);
             const driveLetter = match ? match[0] : "";
             return (
               driveLetter +
-              fileName.slice(driveLetter.length).replace(INVALID_CHAR_REGEX, "")
+              name.slice(driveLetter.length).replace(INVALID_CHAR_REGEX, "")
             );
           },
         },

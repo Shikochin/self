@@ -27,15 +27,15 @@ features:
 
 ### 剝離
 
-[![undefined](/assets/imgs/novels/undefined.webp)](/novels/undefined.md)
+[![undefined_banner](/assets/imgs/novels/undefined_banner.webp)](/novels/undefined.md)
 
-> 一本充斥悲剧的书，一个违背常识的世界
+> 一本充斥悲剧的书，一个违背常识的世界。
 
 ### 寂 <Badge type='tip' text='WIP' vertical='top' />
 
-[![silent](/assets/imgs/novels/silent.webp)](/novels/silent.md)
+[![silent_banner](/assets/imgs/novels/silent_banner.webp)](/novels/silent.md)
 
-> 高塔永不倒塌
+> 高塔永不倒塌···？
 
 ## 一言
 
