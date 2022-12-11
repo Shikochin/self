@@ -13,7 +13,7 @@ icon: link
 
 - 网站名称（二十个字以内）：
 - 网站地址：
-- 网站图标（需要 https，图片尺寸应为 128px * 128px）：
+- 网站图标（需要 https）：
 - 网站简介：
 :::
 
@@ -21,6 +21,6 @@ icon: link
 
 - 网站名称：CHINQBlog
 - 网站地址：<https://www.chinq.xyz>
-- 网站图标：<https://www.chinq.xyz/assets/imgs/icons/logo.webp>
+- 网站图标：<https://www.chinq.xyz/assets/imgs/icons/avatar.webp>
 - 网站简介：Stay young 😙
 :::

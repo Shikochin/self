@@ -3,7 +3,7 @@ title: 主页
 icon: home
 home: true
 heroText: CHINQ
-heroImage: /assets/imgs/icons/logo.webp
+heroImage: /assets/imgs/icons/avatar.webp
 actions:
   - text: 关于我 ❤️
     link: /about/

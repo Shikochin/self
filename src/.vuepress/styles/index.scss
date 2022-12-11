@@ -1,4 +1,11 @@
 .hero {
   margin-top: var(--hero-margin);
   margin-bottom: var(--hero-margin);
+  img {
+    border-radius: 100%;
+  }
+}
+
+.logo {
+    border-radius: 100%;
 }
