@@ -4,7 +4,7 @@ import friend from "../public/assets/friend.json";
 
 <template>
     <div id="linksGrid">
-        <div v-for="{ id, name, link, icon, desc } of friend.links" :key="id" class="friendLink">
+        <div v-for=" { name, link, icon, desc } of friend.links" class="friendLink">
             <img :alt="`${name}-${desc}`" :src="icon" class="icon" />
             <a :href="link">
                 <p class="name">{{ name }}</p>

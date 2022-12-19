@@ -1,5 +1,6 @@
 ---
 icon: link
+comment: false
 ---
 # 友情链接
 
@@ -7,15 +8,7 @@ icon: link
 
 ## 申请加入
 
-按照下方格式，在评论区发布你的友情链接，即可添加您的友情链接
-
-::: info 示例
-
-- 网站名称（二十个字以内）：
-- 网站地址：
-- 网站图标（需要 https）：
-- 网站简介：
-:::
+查看仓库中的[示例](https://github.com/CQBerry/blog/pulls)，提交 pull request，等待 review 即可添加您的友情链接
 
 ::: tip 我的友链
 
