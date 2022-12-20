@@ -1,12 +1,12 @@
-import type { HopeThemeOptions } from 'vuepress-theme-hope'
+import type { ThemeOptions } from 'vuepress-theme-hope'
 import navbarConfigs from './navbar'
 import sidebarConfigs from './sidebar'
 
-const themeConfigs: HopeThemeOptions = {
+const themeConfigs: ThemeOptions = {
     hostname: 'https://www.chinq.xyz',
     author: 'CHINQ',
     logo: '/assets/imgs/icons/avatar.webp',
-    repo: 'CQBerry/blog',
+    repo: 'CQBerry/self',
     docsDir: 'src',
     navbar: navbarConfigs,
     sidebar: sidebarConfigs,

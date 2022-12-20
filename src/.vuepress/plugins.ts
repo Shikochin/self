@@ -7,7 +7,7 @@ const pluginConfigs: PluginConfig = [
     commentPlugin({
         comment: true,
         provider: 'Giscus',
-        repo: 'CQBerry/blog',
+        repo: 'CQBerry/self',
         repoId: 'R_kgDOHzsJjA',
         category: 'Comments',
         categoryId: 'DIC_kwDOHzsJjM4CSnTe',
