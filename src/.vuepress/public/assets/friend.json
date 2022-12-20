@@ -1,3 +1,10 @@
 {
-    "links": []
+    "links": [
+        {
+            "name": "CHINQBlog",
+            "link": "https://www.chinq.xyz",
+            "icon": "https://www.chinq.xyz/assets/imgs/icons/avatar.webp",
+            "desc": "Stay young 😙"
+        }
+    ]
 }
