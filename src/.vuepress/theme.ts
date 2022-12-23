@@ -1,15 +1,15 @@
 import type { ThemeOptions } from 'vuepress-theme-hope'
-import navbarConfigs from './navbar'
-import sidebarConfigs from './sidebar'
+import navbarOptions from './navbar'
+import sidebarOptions from './sidebar'
 
-const themeConfigs: ThemeOptions = {
+const themeOptions: ThemeOptions = {
     hostname: 'https://www.chinq.xyz',
     author: 'CHINQ',
     logo: '/assets/imgs/icons/avatar.webp',
     repo: 'CQBerry/self',
     docsDir: 'src',
-    navbar: navbarConfigs,
-    sidebar: sidebarConfigs,
+    navbar: navbarOptions,
+    sidebar: sidebarOptions,
     footer: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> Licensed | Copyright © 2021-present by CHINQ<br><a href="https://icp.gov.moe/?keyword=20206624">萌 ICP 备</a>',
     copyright: false,
     displayFooter: true,
@@ -26,4 +26,4 @@ const themeConfigs: ThemeOptions = {
     iconAssets: 'iconfont',
 }
 
-export default themeConfigs
+export default themeOptions

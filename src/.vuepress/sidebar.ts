@@ -1,14 +1,14 @@
-import type { HopeThemeSidebarArrayConfig } from "vuepress-theme-hope";
+import type { SidebarArrayOptions } from 'vuepress-theme-hope'
 
-const sidebarConfigs: HopeThemeSidebarArrayConfig = [
+const sidebarOptions: SidebarArrayOptions = [
     {
-        text: "小说",
-        icon: "read",
-        link: "/novels/",
-        prefix: "/novels/",
-        collapsible:true,
-        children: ["undefined", "silent"],
+        text: '小说',
+        icon: 'read',
+        link: '/novels/',
+        prefix: '/novels/',
+        collapsible: true,
+        children: ['undefined', 'silent'],
     },
-];
+]
 
-export default sidebarConfigs;
+export default sidebarOptions
