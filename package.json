@@ -10,7 +10,7 @@
     },
     "devDependencies": {
         "@vuepress/bundler-vite": "2.0.0-beta.60",
-        "@vuepress/client": "2.0.0-beta.59",
+        "@vuepress/client": "2.0.0-beta.60",
         "@vuepress/plugin-register-components": "2.0.0-beta.59",
         "@vuepress/utils": "2.0.0-alpha.1",
         "vue": "^3.2.45",
