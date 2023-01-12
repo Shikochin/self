@@ -1,3 +1,3 @@
 # Self
 
-My personal website, powered by VuePress, using GitHub Pages.
+My personal website, powered by VuePress, using Cloudflare Pages.
