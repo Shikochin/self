@@ -8,7 +8,7 @@ comment: false
 
 ## 申请加入
 
-先在贵站添加我的友情链接，然后查看仓库中的[示例](https://github.com/CQBerry/self/pull/6)，提交 pull request，等待 review 即可添加您的友情链接
+先在您的网站中添加我的友情链接，然后查看仓库中的[示例](https://github.com/CQBerry/self/pull/6)，提交 pull request，等待 review 即可添加您的友情链接
 
 ### 要点
 
