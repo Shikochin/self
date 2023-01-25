@@ -1,0 +1,27 @@
+{
+    "name": "self",
+    "version": "1.0.0",
+    "description": "CQBerry's personal website",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+        "dev": "vitepress dev src",
+        "build": "vitepress build src",
+        "preview": "vitepress preview src"
+    },
+    "license": "CC-BY-SA-4.0",
+    "author": "CQBerry <cqbery@gmail.com>",
+    "pnpm": {
+        "peerDependencyRules": {
+            "ignoreMissing": [
+                "@algolia/client-search"
+            ]
+        }
+    },
+    "devDependencies": {
+        "@giscus/vue": "^2.2.6",
+        "sass": "^1.57.1",
+        "vitepress": "1.0.0-alpha.40",
+        "vue": "^3.2.45"
+    }
+}
