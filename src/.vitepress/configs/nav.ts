@@ -27,6 +27,10 @@ const navConfigs: DefaultTheme.NavItem[] = [
         text: '关于',
         link: '/about',
     },
+    {
+        text: 'GitHub',
+        link: 'https://github.com/CQBerry/self',
+    },
 ]
 
 export default navConfigs
