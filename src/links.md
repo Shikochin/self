@@ -23,6 +23,6 @@ import friendlink from './.vitepress/components/friendlink.vue'
 
 - 网站名称：CQBlog
 - 网站地址：<https://www.cqberry.me>
-- 网站图标：<https://www.cqberry.me/assets/imgs/icons/avatar.webp>
+- 网站图标：<https://www.cqberry.me/assets/imgs/icons/avatar-1x.webp>
 - 网站简介：Stay young 😙
 :::
