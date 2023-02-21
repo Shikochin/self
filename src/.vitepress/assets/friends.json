@@ -3,8 +3,14 @@
         {
             "name": "CQBlog",
             "link": "https://www.cqberry.me",
-            "icon": "https://www.cqberry.me/assets/imgs/icons/avatar-1x.webp",
-            "desc": "Stay young 😙"
+            "icon": "https://www.cqberry.me/wp-content/uploads/2023/02/avatar.webp",
+            "desc": "无限文字产出，无限时间消耗"
+        },
+        {
+            "name": "CQBlog",
+            "link": "https://static.cqberry.me",
+            "icon": "https://static.cqberry.me/assets/imgs/icons/avatar-1x.webp",
+            "desc": "我的静态站"
         },
         {
             "name": "Keritial",
