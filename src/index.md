@@ -17,11 +17,11 @@ hero:
 features:
     - icon: 🪪
       title: 我是谁？
-      details: 一个前端开发者，或者说更像一个小说家
+      details: 一个开发者，或者说更像一个小说家
     - icon: 🗺️
       title: 我在哪？
-      details: 我永远活在自己的小说中，寄身于第零世界
+      details: 我永远活在旁白世界观中，寄身于第零世界
     - icon: ➡️
       title: 我将会...
-      details: 热爱写作，且会一直走下去
+      details: 在自己的路上越走越远
 ---

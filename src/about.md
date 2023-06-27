@@ -1,8 +1,6 @@
 # 关于
 
-我是 CQBerry，你也可以叫我 CQBinary、CHINQ、CQ、~~草Q~~
-
-来这里查看[我的 WordPress 站点](https://www.cqberry.me/)
+我是 CQBerry，你也可以叫我 CQ
 
 ### 联系方式
 

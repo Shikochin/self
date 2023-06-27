@@ -2,11 +2,8 @@ import { DefaultTheme } from 'vitepress'
 
 const navConfigs: DefaultTheme.NavItem[] = [
     {
-        text: '小说',
-        items: [
-            { text: '剝離', link: '/novels/undefined' },
-            { text: '寂', link: '/novels/silent' },
-        ],
+        text: '分类',
+        items: [{ text: '杂文', link: '/essay/game-project-narrators.md' }],
     },
     {
         text: '友情链接',

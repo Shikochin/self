@@ -3,14 +3,8 @@
         {
             "name": "CQBlog",
             "link": "https://www.cqberry.me",
-            "icon": "https://gravatar.loli.net/avatar/6225e673c57604eb52efb3b3e7bb5a9c.png?s=256",
+            "icon": "https://www.cqberry.me/assets/imgs/avatar-1x.webp",
             "desc": "无限文字产出，无限时间消耗"
-        },
-        {
-            "name": "CQBlog",
-            "link": "https://static.cqberry.me",
-            "icon": "https://static.cqberry.me/assets/imgs/icons/avatar-1x.webp",
-            "desc": "我的静态站"
         },
         {
             "name": "Keritial",
