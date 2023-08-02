@@ -4,7 +4,7 @@ import themeConfigs from './configs/theme'
 
 export default defineConfig({
     lang: 'zh-CN',
-    title: 'CQBlog',
+    title: 'Self',
     description: "CQBerry's personal website",
     lastUpdated: true,
     markdown: {

@@ -3,7 +3,10 @@ import { DefaultTheme } from 'vitepress'
 const navConfigs: DefaultTheme.NavItem[] = [
     {
         text: '分类',
-        items: [{ text: '杂文', link: '/essay/game-project-narrators.md' }],
+        items: [
+            { text: '日记', link: '/diary/diary-1.md' },
+            { text: '杂文', link: '/essay/game-project-narrators.md' },
+        ],
     },
     {
         text: '友情链接',
